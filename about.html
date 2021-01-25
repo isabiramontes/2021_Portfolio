@@ -15,6 +15,7 @@
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
         </head>
         <body id="page-top">
+            <?php echo "My first PHP script!";?>
             <div class="bar"> </div>
             <div style="background: #000000; padding-top: 10%;">
                 <section class="bg-black">
@@ -30,51 +31,32 @@
                                 <div style="text-align:center"> </div>
                             </div>
                             <div class="col">
-                                <form method="post">
+                                <form method="post" action="send_mail.php">
                                     <div class="row"> 
                                         <div class="col-md-12 col-lg-6">
                                             <p>Name</p>
-                                            <div class="form-group"><input class="form-control" type="text" name="firstname" placeholder="First"></div>
+                                            <div class="form-group"><input class="form-control" type="text" name="first_name" placeholder="First" required></div>
                                         </div>
                                         <div class="col-md-12 col-lg-6"> 
                                             <p id="hidden"> - </p>
-                                            <div class="form-group"><input class="form-control" type="text" name="lastname" placeholder="Last"></div>
+                                            <div class="form-group"><input class="form-control" type="text" name="last_name" placeholder="Last" required></div>
                                         </div>
                                     </div>
                                     <hr>
                                     <p>Pronouns</p>
-                                    <div class="form-group"><input class="form-control" type="text" name="pronouns"></div>
+                                    <div class="form-group"><input class="form-control" type="text" name="pronouns" required></div>
                                     <hr>
                                     <p>Subject</p>
                                     <div class="form-group"><input class="form-control" type="text" name="subject"></div>
                                     <hr>
                                     <p>Email</p>
-                                    <div class="form-group"><input class="form-control is-invalid" type="email" name="email"><small class="form-text text-danger">Please enter a valid email address.</small></div>
+                                    <div class="form-group"><input class="form-control" type="email" name="email_address" required></div>
                                     <hr>
                                     <p>Message</p>
                                     <div class="form-group"><textarea class="form-control" type="text" name="message" rows="14"></textarea></div>
                                     <hr>
-                                    <div class="form-group"><button class="btn btn-primary" type="submit"> Send </button></div>
+                                    <div class="form-group"><button type="submit"> Send </button></div>
                                 </form>
-                                
-<form method="post" action="send_mail.php">
-    <p>
-    <label>First Name
-    <input type="text" name="first_name" required>
-    </label> 
-    </p>
-    <p>
-    <label>Email 
-    <input type="email" name="email_address">
-    </label>
-    </p>
-    <p>
-    <label>Comments
-    <textarea name="comments" maxlength="500"></textarea>
-    </label>
-    </p>
-    <p><button>Submit the form</button></p>
-    </form>
                             </div>
                         </div>
                     </div>
