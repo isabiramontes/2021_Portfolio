@@ -1,0 +1,39 @@
+h1, h3, p{  /* Titles */
+    font-family: commuters-sans,sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+a, .captions{  /* Subtitles */
+    font-family: commuters-sans,sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+p{  /* General text */
+    font-family: 'Open Sans', sans-serif;
+    color:white;
+}
+
+.captions{
+    padding: 5% 5% 5% 5%;
+    color: #ffffff;
+}
+#testDiv{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition-property: color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.5s;
+}
+a{
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+
+#hidden{
+    color:black;
+}
