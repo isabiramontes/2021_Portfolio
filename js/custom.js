@@ -7,15 +7,17 @@ $(document).ready(function() {
         $(".footer").replaceWith(data);
     });
     $("#mainHeader").hover(function(){ // when hovering over header, gif plays
-        $(this).css("background", "url('/assets/img/photoville.gif')");
+        $(this).css("background", "url('img/photoville.gif')");
         }, function(){
-        $(this).css("background", "url('/assets/img/cover.png')");
+        $(this).css("background", "url('img/cover.png')");
     });
     $("#testDiv").hover(function(){ // when hovering over header, gif plays
         $(this).css("color", "pink");
         }, function(){
             $(this).css("color", "black");
     });
+    $('article:nth-child(2n)').addClass('left-aligned')
+
 
 });
 

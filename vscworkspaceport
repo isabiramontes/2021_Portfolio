@@ -5,13 +5,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Home - Brand</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i">
-    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
-    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
-    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="fonts/simple-line-icons.min.css">
+    <link rel="stylesheet" href="css/Contact-Form-Clean.css">
+    <link rel="stylesheet" href="css/Footer-Basic.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 </head>
 
@@ -30,7 +30,7 @@
             </div>
         </div>
     </nav>
-    <header class="d-flex masthead" data-aos="zoom-out" data-aos-duration="1000" style="background: url(&quot;assets/img/cover.png&quot;), #b5dadd;">
+    <header class="d-flex masthead" data-aos="zoom-out" data-aos-duration="1000" style="background: url(&quot;img/cover.png&quot;), #b5dadd;">
         <div class="container my-auto text-center">
                 <h1 class="text-center masthead-subheading mb-0" style="font-size: 80px;color: #d8ff33;text-align: center;">Isa Biramontes</h2>
                 <h3 class="text-center masthead-subheading mb-0" style="color: #d8ff33;text-align: center;"><strong><em>Developer, designer, artist.</em></strong><br></h3>
@@ -40,9 +40,9 @@
     <div style="background: #b4dadd;padding-top: 50px;">
         <div class="container" style="padding-right: 0px;padding-left: 0px;">
             <div class="row">
-                <div class="col-md-4 offset-lg-0" style="width: 20%;height: auto;padding: 0;"><img data-aos="zoom-out-down" data-aos-duration="1000" data-aos-once="true" src="assets/img/af8d63a477078732b79ff9d9fc6087.jpg" style="width: auto;height: auto;"><img data-aos="zoom-out-up" data-aos-duration="1000" data-aos-once="true" style="padding-top: 10px;padding-bottom: 10px;height: auto;width: auto;" src="assets/img/discovery-bg%20(1).jpg"><img data-aos="zoom-out-up" data-aos-duration="1000" data-aos-once="true" src="assets/img/af8d63a477078732b79ff9d9fc6087.jpg" style="width: auto;height: auto;"></div>
-                <div class="col-md-4" style="width: 20%;height: auto;padding: 0;"><img data-aos="zoom-out-down" data-aos-duration="1000" data-aos-once="true" style="height: auto;width: auto;" src="assets/img/discovery-bg%20(1).jpg"><img data-aos="zoom-out-up" data-aos-duration="1000" data-aos-once="true" style="height: auto;width: auto;padding-top: 10px;padding-bottom: 10px;" src="assets/img/discovery-bg%20(1).jpg"><img data-aos="zoom-out-up" data-aos-duration="1000" data-aos-once="true" src="assets/img/af8d63a477078732b79ff9d9fc6087.jpg" style="width: auto;height: auto;"><img data-aos="zoom-out-up" data-aos-duration="1000" data-aos-once="true" style="height: auto;width: auto;padding-top: 10px;padding-bottom: 10px;" src="assets/img/discovery-bg%20(1).jpg"><img data-aos="zoom-out-up" data-aos-duration="1000" data-aos-once="true" style="height: auto;width: auto;padding-top: 10px;padding-bottom: 10px;" src="assets/img/discovery-bg%20(1).jpg"></div>
-                <div class="col-md-4 offset-lg-0" style="width: 20%;height: auto;padding: 0;"><img data-aos="zoom-out-down" data-aos-duration="1000" data-aos-once="true" src="assets/img/af8d63a477078732b79ff9d9fc6087.jpg" style="width: auto;height: auto;"><img data-aos="zoom-out-up" data-aos-duration="850" data-aos-once="true" style="padding-top: 10px;padding-bottom: 10px;height: auto;width: auto;" src="assets/img/discovery-bg%20(1).jpg"><img data-aos="zoom-out-up" data-aos-duration="1000" data-aos-once="true" src="assets/img/af8d63a477078732b79ff9d9fc6087.jpg" style="width: auto;height: auto;"></div>
+                <div class="col-md-4 offset-lg-0" style="width: 20%;height: auto;padding: 0;"><img data-aos="zoom-out-down" data-aos-duration="1000" data-aos-once="true" src="img/af8d63a477078732b79ff9d9fc6087.jpg" style="width: auto;height: auto;"><img data-aos="zoom-out-up" data-aos-duration="1000" data-aos-once="true" style="padding-top: 10px;padding-bottom: 10px;height: auto;width: auto;" src="img/discovery-bg%20(1).jpg"><img data-aos="zoom-out-up" data-aos-duration="1000" data-aos-once="true" src="img/af8d63a477078732b79ff9d9fc6087.jpg" style="width: auto;height: auto;"></div>
+                <div class="col-md-4" style="width: 20%;height: auto;padding: 0;"><img data-aos="zoom-out-down" data-aos-duration="1000" data-aos-once="true" style="height: auto;width: auto;" src="img/discovery-bg%20(1).jpg"><img data-aos="zoom-out-up" data-aos-duration="1000" data-aos-once="true" style="height: auto;width: auto;padding-top: 10px;padding-bottom: 10px;" src="img/discovery-bg%20(1).jpg"><img data-aos="zoom-out-up" data-aos-duration="1000" data-aos-once="true" src="img/af8d63a477078732b79ff9d9fc6087.jpg" style="width: auto;height: auto;"><img data-aos="zoom-out-up" data-aos-duration="1000" data-aos-once="true" style="height: auto;width: auto;padding-top: 10px;padding-bottom: 10px;" src="img/discovery-bg%20(1).jpg"><img data-aos="zoom-out-up" data-aos-duration="1000" data-aos-once="true" style="height: auto;width: auto;padding-top: 10px;padding-bottom: 10px;" src="img/discovery-bg%20(1).jpg"></div>
+                <div class="col-md-4 offset-lg-0" style="width: 20%;height: auto;padding: 0;"><img data-aos="zoom-out-down" data-aos-duration="1000" data-aos-once="true" src="img/af8d63a477078732b79ff9d9fc6087.jpg" style="width: auto;height: auto;"><img data-aos="zoom-out-up" data-aos-duration="850" data-aos-once="true" style="padding-top: 10px;padding-bottom: 10px;height: auto;width: auto;" src="img/discovery-bg%20(1).jpg"><img data-aos="zoom-out-up" data-aos-duration="1000" data-aos-once="true" src="img/af8d63a477078732b79ff9d9fc6087.jpg" style="width: auto;height: auto;"></div>
             </div>
         </div>
     </div>
@@ -56,12 +56,12 @@
             <p class="copyright">Isa Biramontes © 2021</p>
         </footer>
     </div>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/bs-init.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/bs-init.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-    <script src="assets/js/stylish-portfolio.js"></script>
+    <script src="js/stylish-portfolio.js"></script>
 </body>
 
 </html>
