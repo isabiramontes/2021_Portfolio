@@ -8,6 +8,7 @@
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "2021_Portfolio"
+		"liveServer.settings.multiRootWorkspaceName": "2021_Portfolio",
+		"liveServer.settings.CustomBrowser": "chrome"
 	}
 }
