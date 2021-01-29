@@ -1,7 +1,11 @@
-h1, h3, p{  /* Titles */
+h1, h3{  /* Titles */
     font-family: commuters-sans,sans-serif;
     font-weight: 700;
     font-style: italic;
+}
+p {  /* General text */
+    font-family: 'Open Sans', sans-serif;
+    color:white;
 }
 a, .captions{  /* Subtitles */
     font-family: commuters-sans,sans-serif;
@@ -34,7 +38,7 @@ body {
     left: 50%;
     width: 3px;
     margin-left: -1.5px;
-    background-color: #eeeeee;
+    background-color: #d8ff33;
 }
 
 .timeline > li {
@@ -92,9 +96,9 @@ body {
     top: 27px;
     right: -14px;
     border-top: 14px solid transparent;
-    border-right: 0 solid #fff;
+    border-right: 0 solid #d8ff33;
     border-bottom: 14px solid transparent;
-    border-left: 14px solid #fff;
+    border-left: 14px solid #d8ff33;
 }
 
 .timeline > li > .timeline-badge {
@@ -129,6 +133,7 @@ body {
     left: -14px;
     border-right-width: 14px;
     border-left-width: 0;
+    
 }
 
 .timeline-title {
