@@ -2,6 +2,7 @@ h1, h3{  /* Titles */
     font-family: commuters-sans,sans-serif;
     font-weight: 700;
     font-style: italic;
+    color:#d8ff33;
 }
 p {  /* General text */
     font-family: 'Open Sans', sans-serif;
@@ -101,21 +102,7 @@ body {
     border-left: 14px solid #d8ff33;
 }
 
-.timeline > li > .timeline-badge {
-    z-index: 100;
-    position: absolute;
-    top: 16px;
-    left: 50%;
-    width: 50px;
-    height: 50px;
-    margin-left: -25px;
-    border-radius: 50% 50% 50% 50%;
-    text-align: center;
-    font-size: 1.4em;
-    line-height: 50px;
-    color: #fff;
-    background-color: #999999;
-}
+
 
 .timeline > li.timeline-inverted > .timeline-panel {
     float: right;
@@ -132,8 +119,7 @@ body {
     right: auto;
     left: -14px;
     border-right-width: 14px;
-    border-left-width: 0;
-    
+    border-left-width: 0;   
 }
 
 .timeline-title {
