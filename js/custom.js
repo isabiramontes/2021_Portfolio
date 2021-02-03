@@ -16,8 +16,6 @@ $(document).ready(function() {
         }, function(){
             $(this).css("color", "black");
     });
-    $('article:nth-child(2n)').addClass('right-aligned')
-    $('article:nth-child(n)').addClass('left-aligned')
 
 
 });

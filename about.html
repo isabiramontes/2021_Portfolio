@@ -15,7 +15,6 @@
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
         </head>
         <body id="page-top">
-            <?php echo "My first PHP script!";?>
             <div class="bar"> </div>
             <div style="background: #000000; padding-top: 10%;">
                 <section class="bg-black">
@@ -34,7 +33,7 @@
                                 <form method="post" action="send_mail.php">
                                     <div class="row"> 
                                         <div class="col-md-12 col-lg-6">
-                                            <p>Name</p>
+                                            <p class="required" >Name</p>
                                             <div class="form-group"><input class="form-control" type="text" name="first_name" placeholder="First" required></div>
                                         </div>
                                         <div class="col-md-12 col-lg-6"> 
@@ -43,19 +42,25 @@
                                         </div>
                                     </div>
                                     <hr>
-                                    <p>Pronouns</p>
+                                    <p class="required">Pronouns</p>
                                     <div class="form-group"><input class="form-control" type="text" name="pronouns" required></div>
                                     <hr>
                                     <p>Subject</p>
                                     <div class="form-group"><input class="form-control" type="text" name="subject"></div>
                                     <hr>
-                                    <p>Email</p>
+                                    <p class="required">Email</p>
                                     <div class="form-group"><input class="form-control" type="email" name="email_address" required></div>
                                     <hr>
-                                    <p>Message</p>
+                                    <p class="required">Message</p>
                                     <div class="form-group"><textarea class="form-control" type="text" name="message" rows="14"></textarea></div>
                                     <hr>
                                     <div class="form-group"><button type="submit"> Send </button></div>
+                                    <style>
+                                        .required:after {
+                                          content:" *";
+                                          color: #d8ff33;
+                                        }
+                                    </style>
                                 </form>
                             </div>
                         </div>
