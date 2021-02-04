@@ -16,8 +16,11 @@ $(document).ready(function() {
         }, function(){
             $(this).css("color", "black");
     });
-
-
+    $(".timeline_magnify").hover(function(){ // when hovering over header, gif plays
+        document.getElementById("overlay").style.display = "block";
+        }, function(){
+            document.getElementById("overlay").style.display = "none";
+    });
 });
 
 

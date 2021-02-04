@@ -1,7 +1,6 @@
-<?php 
+<?php
 
-echo "My first PHP script!";
-
-phpinfo(); 
+$msg = "Hi Debug Console";
+echo $msg;
 
 ?>
