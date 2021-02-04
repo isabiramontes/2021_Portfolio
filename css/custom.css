@@ -1,20 +1,25 @@
-h1, h3, p{  /* Titles */
+h1, h3{  /* Titles */
     font-family: commuters-sans,sans-serif;
     font-weight: 700;
     font-style: italic;
 }
-a, .captions{  /* Subtitles */
+a, .captions, p, button {  /* Subtitles & General text */
     font-family: commuters-sans,sans-serif;
     font-weight: 200;
     font-style: normal;
+    color:#ffffff;
 }
-p {  /* General text */
-    font-family: 'Open Sans', sans-serif;
-    color:white;
+body{
+    background-color: black;
 }
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(216,255,51, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.custom-toggler.navbar-toggler {
+    border-color: transparent;
+} 
 .captions{
     padding: 5% 5% 5% 5%;
-    color: #ffffff;
 }
 #testDiv{
     width: 100px;
@@ -25,18 +30,9 @@ p {  /* General text */
     transition-timing-function: ease-in-out;
     transition-delay: 0.5s;
 }
-a{
-    color: white;
+.form-group{
+    padding-bottom: 2%;
 }
-body{
-    background-color: black;
-}
-#hidden{
+button{
     color:black;
 }
-.custom-toggler .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(216,255,51, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}
-.custom-toggler.navbar-toggler {
-    border-color: transparent;
-} 

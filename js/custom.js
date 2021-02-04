@@ -16,10 +16,10 @@ $(document).ready(function() {
         }, function(){
             $(this).css("color", "black");
     });
-    $(".timeline_magnify").hover(function(){ // when hovering over header, gif plays
+    $(".timeline_magnify").click(function(){ // click to enlargen timeline photos
         document.getElementById("overlay").style.display = "block";
         }, function(){
-            document.getElementById("overlay").style.display = "none";
+        document.getElementById("overlay").style.display = "none";
     });
 });
 
