@@ -1,3 +1,6 @@
+.container {
+    display: flex; /* or inline-flex */
+}
 h1, h3{  /* Titles */
     font-family: commuters-sans,sans-serif;
     font-weight: 700;
@@ -40,6 +43,3 @@ img{
     width:auto;
     height:auto;
 }
-.container {
-    justify-content: space-evenly+ safe;
-  }
