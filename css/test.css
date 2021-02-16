@@ -21,6 +21,7 @@ body{
 } 
 .captions{
     padding: 5% 5% 5% 5%;
+    text-align: center;
 }
 .form-group{
     padding-bottom: 2%;
@@ -63,7 +64,7 @@ img{
       flex: 50%;
       max-width: 50%;
     }
-    /* add code so header is responsive */
+
 
   }
   
@@ -73,5 +74,4 @@ img{
       flex: 100%;
       max-width: 100%;
     }
-     /* add code so header is responsive */
   }
