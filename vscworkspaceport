@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 </head>
 
-<body id="page-top">
+<body>
     <nav class="navbar navbar-light navbar-expand-lg fixed-top navbar-custom" style="background: transparent;">
         <div class="container"><a class="navbar-brand" href="#" style="color: #000000;font-family: Lato;">Portfolio</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navbarResponsive" style="color: #000000;font-family: Lato;"><span class="navbar-toggler-icon" style="color: #000000;font-family: Lato;"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive" style="color: #000000;font-family: Lato;">
