@@ -3,7 +3,7 @@
 $msg = "Hey Debug Console";
 echo $msg;
 
-if (isset($_POST['submit'])){   /* if contact form is submit */
+if (isset($_POST['submit']))    {   /* if contact form is submit */
     $first_name = $_POST['first_name'];
     $last_name = $_POST['last_name'];
     $pronouns = $_POST['pronouns'];
@@ -11,11 +11,11 @@ if (isset($_POST['submit'])){   /* if contact form is submit */
     $subject = $_POST['subject'];
     $message = $_POST['message'];
 
-    $reciever_email = "inquiries@isabiramontes.me";
+    $mailTo = "inquiries@isabiramontes.me";
     $headers = "From: ".$email_address;
-    $txt = "New Inquiry from" .$first_name $last_name "pronouns: " .$pronouns ".\n\n".$message;
+    $txt = "New Inquiry from " .$first_name. ".\n\n".$message;
     
-    mail($reciever_email, $text, $headers); /* my email, the message, & whom it's from*/
+    mail($mailTo, $subject, $txt, $headers); /* my email, subject, the message, & whom it's from $txt = "New Inquiry from " .$first_name && $last_name "pronouns: " .$pronouns ".\n\n".$message; */
     header("Location: $thankyou_page");
 }
 ?>
