@@ -1,32 +1,37 @@
 <?php
 
-$msg = "Hi Debug Console";
+$msg = "Hey Debug Console";
 echo $msg;
 
-/*
-This first bit sets the email address that you want the form to be submitted to.
-You will need to change this value to a valid email address that you can access.
-*/
-$webmaster_email = "isabiramontes@gmail.com";
+if (isset($_POST['submit'])){   /* if contact form is submit */
+    $first_name = $_POST['first_name'];
+    $last_name = $_POST['last_name'];
+    $pronouns = $_POST['pronouns'];
+    $email_address = $_POST['email_address'];
+    $subject = $_POST['subject'];
+    $message = $_POST['message'];
+
+    $reciever_email = "inquiries@isabiramontes.me";
+    $headers = "From: ".$email_address;
+    $txt = "New Inquiry from" .$first_name $last_name "pronouns: " .$pronouns ".\n\n".$message
+    
+    mail($reciever_email, $text, $headers); /* my email, the message, & whom it's from*/
+    header("Location: index.php?mailsend");
+}
 
 /*
 This bit sets the URLs of the supporting pages.
 If you change the names of any of the pages, you will need to change the values here.
-*/
 $feedback_page = "about.html";
 $error_page = "error_message.html";
 $thankyou_page = "thank_you.html";
+*/
+
 
 /*
 This next bit loads the form field data into variables.
 If you add a form field, you will need to add it here.
-*/
-$first_name = $_REQUEST['first_name'] ;
-$last_name = $_REQUEST['last_name'] ;
-$pronouns = $_REQUEST['pronouns'] ;
-$email_address = $_REQUEST['email_address'] ;
-$subject = $_REQUEST['subject'] ;
-$message = $_REQUEST['message'] ;
+
 
 $msg = 
 "Name: " . $first_name + $last_name .  "\r\n" . 
@@ -34,11 +39,12 @@ $msg =
 "Email: " . $email_address . "\r\n" . 
 "Subject: " . $subject . "\r\n" . 
 "Inquiry: " . $message ;
+*/
+
 
 /*
 The following function checks for email injection.
 Specifically, it checks for carriage returns - typically used by spammers to inject a CC list.
-*/
 function isInjected($str) {
 	$injections = array('(\n+)',
 	'(\r+)',
@@ -65,11 +71,12 @@ header( "Location: $feedback_page" );
 elseif (empty($first_name) || empty($last_name) || empty($pronouns) || empty($email_address)) {
 header( "Location: $error_page" );
 }
+*/
+
 
 /* 
 If email injection is detected, redirect to the error page.
 If you add a form field, you should add it here.
-*/
 elseif ( isInjected($email_address) || isInjected($first_name) || isInjected($last_name) || isInjected($pronouns) || isInjected($message)  ) {
 header( "Location: $error_page" );
 }
@@ -81,5 +88,5 @@ else {
 
 	header( "Location: $thankyou_page" );
 }
-
+*/
 ?>
