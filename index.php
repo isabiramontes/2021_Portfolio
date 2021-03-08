@@ -16,7 +16,7 @@ if (isset($_POST['submit'])){   /* if contact form is submit */
     $txt = "New Inquiry from" .$first_name $last_name "pronouns: " .$pronouns ".\n\n".$message
     
     mail($reciever_email, $text, $headers); /* my email, the message, & whom it's from*/
-    header("Location: index.php?mailsend");
+    header("Location: $thankyou_page");
 }
 
 /*
