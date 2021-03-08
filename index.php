@@ -16,6 +16,7 @@ if (isset($_POST['submit']))    {   /* if contact form is submit */
     $txt = "New Inquiry from " .$first_name. ".\n\n".$message;
     
     mail($mailTo, $subject, $txt, $headers); /* my email, subject, the message, & whom it's from $txt = "New Inquiry from " .$first_name && $last_name "pronouns: " .$pronouns ".\n\n".$message; */
-    header("Location: $thankyou_page");
+    header("Location: thank_you.html");
 }
+
 ?>
