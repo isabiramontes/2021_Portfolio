@@ -22,7 +22,8 @@ body{
     padding: 5% 5% 5% 5%;
     text-align: center;
 }
-#testDiv{
+/* 
+#overlay{
     width: 100px;
     height: 100px;
     background-color: red;
@@ -31,6 +32,7 @@ body{
     transition-timing-function: ease-in-out;
     transition-delay: 0.5s;
 }
+*/
 .form-group{
     padding-bottom: 2%;
 }
@@ -44,7 +46,51 @@ img{
     width:auto;
     height:auto;
 }
+.overlayone{
+  width:auto;
+  height:auto;
+  display: inline-block;
+  position: relative;
+}
+.overlayinn {
+  background-color: #C8E5E8;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+  display: center;
+}
+.overlayinn:hover {
+  opacity: 1;
+  transition: opacity ease 200ms;
+}
+.overlaytwo {
+  background:url(img/gears.jpg);
+  width:480px;
+  height: 360px;
+   display: inline-block;
 
+}
+.overhide {
+  background: rgba(0,0,0,.75);
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.25s ease 0s;
+  padding: 124px;
+}
+.overhide:hover  {
+  opacity: 1;
+}
+.plusicon {
+  font-family:Helvetica;
+  font-weight:900;
+  color: #fff;
+  font-size: 96px;
+     
+}
 #mainHeader{
     text-align: center;
 }

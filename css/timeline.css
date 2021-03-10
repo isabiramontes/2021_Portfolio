@@ -189,7 +189,7 @@ body {
     z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
     cursor: pointer; /* Add a pointer on hover */
   }
-  .overlay_content{
+  #overlay_content{
     position: absolute;
     top: 50%;
     left: 50%;

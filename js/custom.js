@@ -11,7 +11,7 @@ $(document).ready(function() {
         }, function(){
         $(this).css("background", "url('img/cover.png')");
     });
-    $("#testDiv").hover(function(){ // when hovering over header, gif plays
+    $("#overlay").hover(function(){ // when hovering over header, gif plays
         $(this).css("color", "pink");
         }, function(){
             $(this).css("color", "black");
