@@ -202,3 +202,11 @@ body {
     font-style: normal;
     color:#ffffff;
 }
+#toplogo {
+    margin-top: 5px;
+}
+
+#toplogo img {
+    height : 15%;
+    width : 15%;
+}

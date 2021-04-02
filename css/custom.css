@@ -131,3 +131,15 @@ img{
       max-width: 100%;
     }
   }
+  #toplogo {
+    margin-top: 5px;
+}
+
+#toplogo img {
+    height : 15%;
+    width : 15%;
+}
+li{
+  display:inline-block;
+}
+.navbar-header{}
