@@ -210,3 +210,21 @@ body {
     height : 15%;
     width : 15%;
 }
+hr{
+
+
+
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-color:#d8ff33;
+    border-width: 4px;
+
+}
+.galleryHeader{
+    padding-top: 5%; 
+    padding-bottom: 3%;
+    padding-left: 4%; 
+
+}
