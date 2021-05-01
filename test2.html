@@ -155,13 +155,30 @@
             </div>
         </div>
     </div>
-     <!--/.test overlay-->
+     <!-- test overlay-->
 
       <div class="container">
-        <img class="image" src="img/art/2019/final_croquis.png" >
-        <div class="overlay">
-        </div>
+        <img class="image" src="img/art/2019/final_croquis.png">
+        <div class="overlay"></div>
       </div>
+
+      <div class="row thumbrow">
+        <ul class="small-block-grid-2 medium-block-grid-2 large-block-grid-4 thumbgrid">
+            <li>
+                <div class="thumb">
+                    <img src="img/art/2019/final_croquis.png"/>
+                        <span class="center">Space: The final Front Ear</span>
+                    <div class="yellow"> 
+                        &nbsp;
+                    </div>
+                </div>
+            </li>
+            
+        </ul>
+        </div>
+
+      
+      
     <style type="text/css">
         .tab { margin-left: 40px; }
         .container {
@@ -176,7 +193,7 @@
 }
 
 .overlay {
-    display: block;
+  display: block;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -186,11 +203,41 @@
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color: #c8e5e8;
 }
 
 .container:hover .overlay {
-  opacity: 0.3;
+  opacity: 0.6;
+}
+ul, li { margin:0; padding:0;list-style:none}
+.thumb {
+    display:inline-block;
+    position: relative;
+    height: 170px;
+    width:100%;
+    overflow: hidden; 
+}
+.thumb .yellow, .thumb .center { display:none; }
+.thumb:hover .yellow {
+    content:'.';
+    display: block;
+    bottom:0px;
+    top: 0px;
+    left: 0px;
+    right:0px;
+    opacity: 0.5;
+    position: absolute;
+    
+    z-index: 1;
+    background: #f9d33a;
+}  
+
+.thumb:hover .center {
+    display:block;
+    color: white;
+    position: absolute;
+    top: 20px; left: 20px; right: 20px; bottom:20px;
+    z-index: 2;
 }
 
     </style>
