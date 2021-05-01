@@ -155,89 +155,133 @@
             </div>
         </div>
     </div>
-     <!-- test overlay-->
+     <!--test overlay-->
 
-      <div class="container">
-        <img class="image" src="img/art/2019/final_croquis.png">
-        <div class="overlay"></div>
+<div class="container">
+  <div class="content">
+      <!--<a href="" target="_blank"> popover anchor -->
+      <div class="content-overlay"></div>
+      <img class="content-image" src="img/art/2019/artist_2019_5.png">
+      <div class="content-details fadeIn-top">
+    <!-- <h3>This is a title</h3><p>This is a short description</p> text overlay  -->
       </div>
-
-      <div class="row thumbrow">
-        <ul class="small-block-grid-2 medium-block-grid-2 large-block-grid-4 thumbgrid">
-            <li>
-                <div class="thumb">
-                    <img src="img/art/2019/final_croquis.png"/>
-                        <span class="center">Space: The final Front Ear</span>
-                    <div class="yellow"> 
-                        &nbsp;
-                    </div>
-                </div>
-            </li>
-            
-        </ul>
-        </div>
-
+    </a>
+  </div>
+</div>
       
-      
-    <style type="text/css">
-        .tab { margin-left: 40px; }
-        .container {
-  position: relative;
+<style type="text/css">
+
+*, *:before, *:after{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing:border-box;
+  box-sizing: border-box;
+}
+
+
+
+.container{
+  padding: 1em 0;
+  float: left;
   width: 50%;
 }
-
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
+@media screen and (max-width: 640px){
+  .container{
+    display: block;
+    width: 100%;
+  }
 }
 
-.overlay {
-  display: block;
+@media screen and (min-width: 900px){
+  .container{
+    width: 33.33333%;
+  }
+}
+
+.container .title{
+  color: #1a1a1a;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.content {
+  position: relative;
+  width: 90%;
+  max-width: 400px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.content .content-overlay {
+  background: #c8e5e8;
   position: absolute;
+  width:auto;
+  height:auto;
+  left: 0;
   top: 0;
   bottom: 0;
-  left: 0;
   right: 0;
-  height: 100%;
-  width: 100%;
   opacity: 0;
-  transition: .5s ease;
-  background-color: #c8e5e8;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
 }
 
-.container:hover .overlay {
+.content:hover .content-overlay{ /* overall image overlay opacity */
   opacity: 0.6;
 }
-ul, li { margin:0; padding:0;list-style:none}
-.thumb {
-    display:inline-block;
-    position: relative;
-    height: 170px;
-    width:100%;
-    overflow: hidden; 
-}
-.thumb .yellow, .thumb .center { display:none; }
-.thumb:hover .yellow {
-    content:'.';
-    display: block;
-    bottom:0px;
-    top: 0px;
-    left: 0px;
-    right:0px;
-    opacity: 0.5;
-    position: absolute;
-    
-    z-index: 1;
-    background: #f9d33a;
-}  
 
-.thumb:hover .center {
-    display:block;
-    color: white;
-    position: absolute;
-    top: 20px; left: 20px; right: 20px; bottom:20px;
-    z-index: 2;
+.content-image{
+  width: 100%;
+}
+
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.content:hover .content-details{
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+/*  h3 & p css
+.main-title{
+  color: #2d2d2d;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 0.7em 0;
+} 
+.content-details h3{
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+
+.content-details p{
+  color: #fff;
+  font-size: 0.8em;
+}
+*/
+
+.fadeIn-top{
+  top: 20%;
+  
 }
 
     </style>
