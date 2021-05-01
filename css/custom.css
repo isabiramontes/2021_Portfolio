@@ -67,13 +67,6 @@ img{
   opacity: 1;
   transition: opacity ease 200ms;
 }
-.overlaytwo {
-  background:url(img/gears.jpg);
-  width:480px;
-  height: 360px;
-   display: inline-block;
-
-}
 .overhide {
   background: rgba(0,0,0,.75);
   text-align: center;
@@ -153,27 +146,6 @@ img{
   padding: 1em 0;
   float: left;
 }
-/*
-@media screen and (max-width: 640px){
-  .container{
-    display: block;
-    width: 100%;
-  }
-}
-
-@media screen and (min-width: 900px){
-  .container{
-    width: 33.33333%;
-  }
-}
-.container .title{
-  color: #1a1a1a;
-  text-align: center;
-  margin-bottom: 10px;
-}
-*/
-
-
 .content {
   position: relative;
   width: 100%;
@@ -221,33 +193,15 @@ img{
   -moz-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
 }
-
 .content:hover .content-details{
   top: 50%;
   left: 50%;
   opacity: 1;
 }
-/*  h3 & p css
-.main-title{
-  color: #2d2d2d;
-  text-align: center;
-  text-transform: capitalize;
-  padding: 0.7em 0;
-} 
-.content-details h3{
-  color: #fff;
-  font-weight: 500;
-  letter-spacing: 0.15em;
-  margin-bottom: 0.5em;
-  text-transform: uppercase;
-}
-
-.content-details p{
-  color: #fff;
-  font-size: 0.8em;
-}
-*/
 .fadeIn-top{
-  top: 20%;
-  
+  top: 20%; 
+}
+#column2 {
+  flex: 50%;
+    max-width: 50%;
 }
