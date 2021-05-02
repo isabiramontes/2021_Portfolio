@@ -218,6 +218,10 @@ img{
   flex: 50%;
   max-width: 50%;
 }
+#column13, #column23, #column33{
+  flex: 33.3%;
+  max-width: 33.3%;
+}
 .galleryHeader{
   padding-top: 5%; 
   padding-bottom: 3%;
