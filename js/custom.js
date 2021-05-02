@@ -11,11 +11,6 @@ $(document).ready(function() {
         }, function(){
         $(this).css("background", "url('img/cover.png')");
     });
-    $("#overlay").hover(function(){ // when hovering over header, gif plays
-        $(this).css("color", "pink");
-        }, function(){
-            $(this).css("color", "black");
-    });
     $(".timeline_magnify").click(function(){ // click to enlargen timeline photos
         document.getElementById("overlay").style.display = "block";
         }, function(){

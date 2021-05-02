@@ -1,13 +1,19 @@
 h1, h3{  /* Titles */
-    font-family: commuters-sans,sans-serif;
-    font-weight: 700;
-    font-style: italic;
+  font-family: commuters-sans,sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  color:#d8ff33;
 }
 a, .captions, p, button {  /* Subtitles & General text */
     font-family: commuters-sans,sans-serif;
     font-weight: 200;
     font-style: normal;
     color:#ffffff;
+}
+.captions{
+  padding: 5% 5% 5% 5%;
+  text-align: center;
+  text-shadow: 2px 2px 5px black;
 }
 body{
     background-color: black;
@@ -18,11 +24,18 @@ body{
 .custom-toggler.navbar-toggler {
     border-color: transparent;
 } 
-.captions{
-    padding: 5% 5% 5% 5%;
-    text-align: center;
-}
 /* 
+p{  // General text
+    font-family: 'Open Sans', sans-serif;
+    color:white;
+}
+OR 
+p {  
+  font-family: commuters-sans,sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color:#ffffff;
+}
 #overlay{
     width: 100px;
     height: 100px;
@@ -201,7 +214,21 @@ img{
 .fadeIn-top{
   top: 20%; 
 }
-#column2 {
+#column2, #column12 {
   flex: 50%;
-    max-width: 50%;
+  max-width: 50%;
+}
+.galleryHeader{
+  padding-top: 5%; 
+  padding-bottom: 3%;
+  padding-left: 4%; 
+}
+hr{
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-color:#d8ff33;
+  border-width: 4px;
+
 }
