@@ -24,31 +24,6 @@ body{
 .custom-toggler.navbar-toggler {
     border-color: transparent;
 } 
-/* 
-p{  // General text
-    font-family: 'Open Sans', sans-serif;
-    color:white;
-}
-OR 
-p {  
-  font-family: commuters-sans,sans-serif;
-  font-weight: 200;
-  font-style: normal;
-  color:#ffffff;
-}
-#overlay{
-    width: 100px;
-    height: 100px;
-    background-color: red;
-    transition-property: color;
-    transition-duration: 0.5s;
-    transition-timing-function: ease-in-out;
-    transition-delay: 0.5s;
-}
-*/
-.form-group{
-    padding-bottom: 2%;
-}
 button{
   background: #d8ff33; 
   padding: 20px 30px 20px 30px;
@@ -214,14 +189,6 @@ img{
 .fadeIn-top{
   top: 20%; 
 }
-#column2, #column12 {
-  flex: 50%;
-  max-width: 50%;
-}
-#column13, #column23, #column33{
-  flex: 33.3%;
-  max-width: 33.3%;
-}
 .galleryHeader{
   padding-top: 5%; 
   padding-bottom: 3%;
@@ -236,3 +203,26 @@ hr{
   border-width: 4px;
 
 }
+
+/* 
+p{  // General text
+    font-family: 'Open Sans', sans-serif;
+    color:white;
+}
+OR 
+p {  
+  font-family: commuters-sans,sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color:#ffffff;
+}
+#overlay{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition-property: color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.5s;
+}
+*/
