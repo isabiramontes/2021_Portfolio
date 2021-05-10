@@ -13,7 +13,7 @@ a, .captions, p, button {  /* Subtitles & General text */
 .captions{
   padding: 5% 5% 5% 5%;
   text-align: center;
-  text-shadow: 2px 2px 5px black;
+  text-shadow: 2px 2px 8px black;
 }
 body{
     background-color: black;
