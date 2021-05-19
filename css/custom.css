@@ -231,8 +231,15 @@ hr {
     border-width: 4px;
 }
 
+#webrowart {
+    box-shadow: 5px 10px #c8e5e8;
+    border: 1px solid;
+    padding: 10px;
+}
+
 
 /* 
+#c8e5e8
 p{  // General text
     font-family: 'Open Sans', sans-serif;
     color:white;
