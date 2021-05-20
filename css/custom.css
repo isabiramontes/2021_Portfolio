@@ -21,8 +21,8 @@ button {
 .captions {
     padding: 5% 5% 5% 5%;
     text-align: center;
-    text-shadow: 3px 2px 4px #000000;
-    font-size: 1.2vw;
+    text-shadow: 3px 2px 14px #000000;
+    font-size: 1.4vw;
 }
 
 body {
@@ -110,26 +110,6 @@ img {
     vertical-align: middle;
 }
 
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-
-@media (max-width: 800px) {
-    .col {
-        flex: 50%;
-        max-width: 50%;
-    }
-}
-
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-
-@media (max-width: 600px) {
-    .col {
-        flex: 100%;
-        max-width: 100%;
-    }
-}
-
 #toplogo {
     margin-top: 5px;
 }
@@ -183,7 +163,7 @@ img {
 
 .content:hover .content-overlay {
     /* overall image overlay opacity */
-    opacity: 0.6;
+    opacity: 0.8;
 }
 
 .content-image {
@@ -239,7 +219,7 @@ hr {
 }
 
 a {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
     position: relative;
 }
@@ -265,6 +245,28 @@ a:after {
 a:hover:after {
     width: 100%;
     left: 0;
+}
+
+@media (max-width: 800px) {
+    /* Responsive layout - makes a two column-layout instead of four columns */
+    .col {
+        flex: 50%;
+        max-width: 50%;
+    }
+    .captions {
+        font-size: 3vw;
+    }
+}
+
+@media (max-width: 600px) {
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    .col {
+        flex: 100%;
+        max-width: 100%;
+    }
+    .captions {
+        font-size: 4.5vw;
+    }
 }
 
 
