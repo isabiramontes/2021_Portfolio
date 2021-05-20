@@ -1,3 +1,7 @@
+body {
+    background-color: black;
+}
+
 h1,
 h3 {
     /* Titles */
@@ -21,12 +25,8 @@ button {
 .captions {
     padding: 5% 5% 5% 5%;
     text-align: center;
-    text-shadow: 3px 2px 14px #000000;
+    text-shadow: 3px 2px 12px #000000;
     font-size: 1.4vw;
-}
-
-body {
-    background-color: black;
 }
 
 .custom-toggler .navbar-toggler-icon {
