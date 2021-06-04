@@ -269,6 +269,24 @@ a:hover:after {
     }
 }
 
+.linkCard {
+    border: #c8e5e8;
+    border-width: 5px;
+    border-style: groove;
+    padding: 3% 3% 3% 3%;
+    min-width: 100%;
+}
+
+.headLink {
+    font-weight: bolder;
+    color: #c8e5e8;
+}
+
+.aboutAndLink:hover:after {
+    width: 25px;
+    left: 0;
+}
+
 
 /* 
 #c8e5e8
