@@ -316,7 +316,6 @@ i.bi.bi.person-circle::before {
 }
 
 .container.space-between {
-    display: flex;
     justify-content: space-between;
 }
 
