@@ -277,14 +277,47 @@ a:hover:after {
     min-width: 100%;
 }
 
+#linkSet {
+    border: #000000;
+    border-width: 5px;
+    border-style: groove;
+    padding: 2% 2% 2% 2%;
+    min-width: 100%;
+    justify-content: space-evenly;
+}
+
 .headLink {
     font-weight: bolder;
     color: #c8e5e8;
+    text-shadow: 3px 2px 12px #c8e5e8;
+    display: inline-block;
 }
 
 .aboutAndLink:hover:after {
     width: 25px;
     left: 0;
+}
+
+.alignleft {
+    float: left;
+}
+
+.alignright {
+    float: right;
+}
+
+i.bi.bi.person-circle::before {
+    padding-bottom: 10px;
+}
+
+#linkFooter {
+    padding: 10px 0;
+    text-align: center;
+}
+
+.container.space-between {
+    display: flex;
+    justify-content: space-between;
 }
 
 
